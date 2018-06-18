@@ -1,5 +1,7 @@
 defmodule Bank do
 
+  use GenServer
+
   require Logger
 
   alias Bank.BankActions
