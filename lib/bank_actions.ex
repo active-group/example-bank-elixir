@@ -23,6 +23,7 @@ defmodule Bank.BankActions do
         defstruct [:name, :amount]
         @type t :: %DepositAction{name: String.t, amount: float}
     end
+    
     defmodule GetBalancesAction do
         defstruct []
         @type t :: %GetBalancesAction{}
